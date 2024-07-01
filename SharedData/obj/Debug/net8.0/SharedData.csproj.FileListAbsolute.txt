@@ -1,0 +1,12 @@
+C:\Users\user\OneDrive\바탕 화면\Project\RankingApp\SharedData\bin\Debug\net8.0\SharedData.deps.json
+C:\Users\user\OneDrive\바탕 화면\Project\RankingApp\SharedData\bin\Debug\net8.0\SharedData.dll
+C:\Users\user\OneDrive\바탕 화면\Project\RankingApp\SharedData\bin\Debug\net8.0\SharedData.pdb
+C:\Users\user\OneDrive\바탕 화면\Project\RankingApp\SharedData\obj\Debug\net8.0\SharedData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\바탕 화면\Project\RankingApp\SharedData\obj\Debug\net8.0\SharedData.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\바탕 화면\Project\RankingApp\SharedData\obj\Debug\net8.0\SharedData.AssemblyInfo.cs
+C:\Users\user\OneDrive\바탕 화면\Project\RankingApp\SharedData\obj\Debug\net8.0\SharedData.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\바탕 화면\Project\RankingApp\SharedData\obj\Debug\net8.0\SharedData.sourcelink.json
+C:\Users\user\OneDrive\바탕 화면\Project\RankingApp\SharedData\obj\Debug\net8.0\SharedData.dll
+C:\Users\user\OneDrive\바탕 화면\Project\RankingApp\SharedData\obj\Debug\net8.0\refint\SharedData.dll
+C:\Users\user\OneDrive\바탕 화면\Project\RankingApp\SharedData\obj\Debug\net8.0\SharedData.pdb
+C:\Users\user\OneDrive\바탕 화면\Project\RankingApp\SharedData\obj\Debug\net8.0\ref\SharedData.dll
