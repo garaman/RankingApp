@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "..\\WebAPI\\Controllers\\RankingController.cs",
               "ToolTip": "E:\\Programming\\RankingApp\\WebAPI\\Controllers\\RankingController.cs",
               "RelativeToolTip": "..\\WebAPI\\Controllers\\RankingController.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAcwEkAAAAYAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwEEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T09:02:12.936Z",
               "EditorCaption": ""
@@ -44,8 +44,7 @@
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/RankingAPIDB/True/SqlTable/dbo.GameResults.sql",
               "ToolTip": "dbo.GameResults [\uB370\uC774\uD130]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-07-01T08:48:23.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T08:48:23.495Z"
             },
             {
               "$type": "Document",
@@ -57,8 +56,7 @@
               "RelativeToolTip": "..\\WebAPI\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-01T08:57:20.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T08:57:20.911Z"
             },
             {
               "$type": "Document",
@@ -70,8 +68,7 @@
               "RelativeToolTip": "..\\WebAPI\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T08:57:16.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T08:57:16.048Z"
             }
           ]
         }

@@ -74,5 +74,23 @@ namespace WebAPI.Controllers
             return true;
         }
         // Delete
+        [HttpDelete("{id}")]
+        public bool DeleteGameResult(int id)
+        {
+            var findResult = _context.GameResults
+                .Where(x => x.Id == id)
+                .FirstOrDefault();
+
+            if (findResult == null)
+            {
+                return false;
+            }
+
+            _context.GameResults.Remove(findResult);
+            _context.SaveChanges();
+
+            return true;
+        }
+
     }
 }
