@@ -1,0 +1,133 @@
+﻿@page "/ranking"
+@rendermode InteractiveServer
+@using RankingApp.Data.Models
+@using RankingApp.Data.Service
+
+@inject RankingService RankingService
+
+<h3>Ranking</h3>
+
+<AuthorizeView>
+    <Authorized>
+        @if (_gameResults == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>UserName</th>
+                        <th>Score</th>
+                        <th>Date</th>
+                        <th colspan="2">기능</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var gameResult in _gameResults)
+                    {
+                        <tr>
+                            <td>@gameResult.USerName</td>
+                            <td>@gameResult.Score</td>
+                            <td>@gameResult.Date.ToShortDateString()</td>
+
+                            <td>
+                                <button class="btn btn-success" @onclick="() => UpdateGameResult(gameResult)"> 수정 </button>
+                            </td>
+                            <td>
+                                <button class="btn btn-danger" @onclick="() => DeleteGameResult(gameResult)"> 삭제 </button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+
+        <div>
+            <button class="btn btn-primary" @onclick="AddGameResult">
+                랭킹정보 추가
+            </button>
+        </div>
+
+        @if(_showPopup)
+        {
+            <div class="modal" style="display: block" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">랭킹정보 추가 / 수정</h3>
+                            <button type="button" class="btn btn-close" @onclick="ClosePopup"></button>
+                        </div>
+                        <div class="modal-body">
+                            <label for="UserName">유저 이름</label>
+                            <input class="form-control" type="text" placeholder="UserName" @bind-value="_gameResult.USerName"/>
+                            <label for="Score">점수</label>
+                            <input class="form-control" type="text" @bind-value="_gameResult.Score" />
+                            <br/>
+                            <button type="button" class="btn btn-primary" @onclick="SaveGameResult">저장</button>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        }
+    </Authorized>
+    <NotAuthorized>
+        <p> 비회원은 확인할 수 없습니다. </p>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+    List<GameResult> _gameResults;
+
+    bool _showPopup;
+    GameResult _gameResult;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _gameResults = await RankingService.GetGameResultsAsync();
+    }
+
+    void AddGameResult()
+    {
+        _showPopup = true;
+        _gameResult = new GameResult() { Id = 0 };
+    }
+
+    void ClosePopup()
+    {
+        _showPopup = false;
+    }
+
+    void UpdateGameResult(GameResult gameResult)
+    {
+        _showPopup = true;
+        _gameResult = gameResult;
+    }
+
+    async Task DeleteGameResult(GameResult gameResult)
+    {
+        _gameResult = gameResult;
+        var result = RankingService.DeleteGameResult(_gameResult);
+        _gameResults = await RankingService.GetGameResultsAsync();
+    }
+
+    async Task SaveGameResult()
+    {
+        if(_gameResult.Id == 0)
+        {
+            _gameResult.Date = DateTime.Now;
+            var result = RankingService.AddGameResult(_gameResult);
+        }
+        else
+        {
+            var result = RankingService.UpdateGameResult(_gameResult);
+        }
+
+        _gameResults = await RankingService.GetGameResultsAsync();
+        _showPopup = false;
+    }
+
+}
