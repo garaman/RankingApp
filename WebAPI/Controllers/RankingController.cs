@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SharedData.Models;
 using WebAPI.Data;
 
@@ -23,6 +24,14 @@ namespace WebAPI.Controllers
         }
 
         // Create
+        [HttpPost]
+        public GameResult AddGameResult([FromBody]GameResult gameResult)
+        {
+            _context.GameResults.Add(gameResult);
+            _context.SaveChanges();
+
+            return gameResult;
+        }
 
         // Read
         [HttpGet]
@@ -46,7 +55,24 @@ namespace WebAPI.Controllers
         }
 
         // Update
+        [HttpPut]
+        public bool UpdateGameResult([FromBody] GameResult gameResult)
+        {
+            var findResult = _context.GameResults
+                .Where(x => x.Id == gameResult.Id)
+                .FirstOrDefault();
 
+            if (findResult == null)
+            {
+                return false;
+            }
+
+            findResult.USerName = gameResult.USerName;
+            findResult.Score = gameResult.Score;
+            _context.SaveChanges();
+
+            return true;
+        }
         // Delete
     }
 }

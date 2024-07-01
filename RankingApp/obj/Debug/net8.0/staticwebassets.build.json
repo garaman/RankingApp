@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "p85P1lZRXDIOYrpGjK9KxElNjoBpcbIVTWOtC2U1T+Q=",
+  "Hash": "LAt64KUjFSETm0vqTkQkncQhY/XwJ3Jrqu6uyogMHw4=",
   "Source": "RankingApp",
   "BasePath": "_content/RankingApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "RankingApp\\wwwroot",
       "Source": "RankingApp",
-      "ContentRoot": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\RankingApp\\wwwroot\\",
+      "ContentRoot": "E:\\Programming\\RankingApp\\RankingApp\\wwwroot\\",
       "BasePath": "_content/RankingApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\RankingApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RankingApp.styles.css",
+      "Identity": "E:\\Programming\\RankingApp\\RankingApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RankingApp.styles.css",
       "SourceId": "RankingApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\RankingApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\Programming\\RankingApp\\RankingApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/RankingApp",
       "RelativePath": "RankingApp.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\RankingApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RankingApp.styles.css"
+      "OriginalItemSpec": "E:\\Programming\\RankingApp\\RankingApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RankingApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\RankingApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RankingApp.bundle.scp.css",
+      "Identity": "E:\\Programming\\RankingApp\\RankingApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RankingApp.bundle.scp.css",
       "SourceId": "RankingApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\RankingApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\Programming\\RankingApp\\RankingApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/RankingApp",
       "RelativePath": "RankingApp.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\RankingApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RankingApp.bundle.scp.css"
+      "OriginalItemSpec": "E:\\Programming\\RankingApp\\RankingApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RankingApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\RankingApp\\wwwroot\\app.css",
+      "Identity": "E:\\Programming\\RankingApp\\RankingApp\\wwwroot\\app.css",
       "SourceId": "RankingApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\RankingApp\\wwwroot\\",
+      "ContentRoot": "E:\\Programming\\RankingApp\\RankingApp\\wwwroot\\",
       "BasePath": "_content/RankingApp",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\RankingApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "E:\\Programming\\RankingApp\\RankingApp\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "RankingApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\RankingApp\\wwwroot\\",
+      "ContentRoot": "E:\\Programming\\RankingApp\\RankingApp\\wwwroot\\",
       "BasePath": "_content/RankingApp",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\RankingApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "E:\\Programming\\RankingApp\\RankingApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "RankingApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\RankingApp\\wwwroot\\",
+      "ContentRoot": "E:\\Programming\\RankingApp\\RankingApp\\wwwroot\\",
       "BasePath": "_content/RankingApp",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\RankingApp\\wwwroot\\favicon.png",
+      "Identity": "E:\\Programming\\RankingApp\\RankingApp\\wwwroot\\favicon.png",
       "SourceId": "RankingApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\RankingApp\\wwwroot\\",
+      "ContentRoot": "E:\\Programming\\RankingApp\\RankingApp\\wwwroot\\",
       "BasePath": "_content/RankingApp",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

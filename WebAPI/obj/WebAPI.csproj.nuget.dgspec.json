@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\WebAPI\\WebAPI.csproj": {}
+    "E:\\Programming\\RankingApp\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\SharedData\\SharedData.csproj": {
+    "E:\\Programming\\RankingApp\\SharedData\\SharedData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\SharedData\\SharedData.csproj",
+        "projectUniqueName": "E:\\Programming\\RankingApp\\SharedData\\SharedData.csproj",
         "projectName": "SharedData",
-        "projectPath": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\SharedData\\SharedData.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\SharedData\\obj\\",
+        "projectPath": "E:\\Programming\\RankingApp\\SharedData\\SharedData.csproj",
+        "packagesPath": "C:\\Users\\ahs20\\.nuget\\packages\\",
+        "outputPath": "E:\\Programming\\RankingApp\\SharedData\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ahs20\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,17 +69,21 @@
         }
       }
     },
-    "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\WebAPI\\WebAPI.csproj": {
+    "E:\\Programming\\RankingApp\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "E:\\Programming\\RankingApp\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\WebAPI\\obj\\",
+        "projectPath": "E:\\Programming\\RankingApp\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\ahs20\\.nuget\\packages\\",
+        "outputPath": "E:\\Programming\\RankingApp\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ahs20\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\SharedData\\SharedData.csproj": {
-                "projectPath": "C:\\Users\\user\\OneDrive\\바탕 화면\\Project\\RankingApp\\SharedData\\SharedData.csproj"
+              "E:\\Programming\\RankingApp\\SharedData\\SharedData.csproj": {
+                "projectPath": "E:\\Programming\\RankingApp\\SharedData\\SharedData.csproj"
               }
             }
           }
