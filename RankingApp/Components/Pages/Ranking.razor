@@ -1,7 +1,7 @@
 ﻿@page "/ranking"
 @rendermode InteractiveServer
-@using RankingApp.Data.Models
 @using RankingApp.Data.Service
+@using SharedData.Models
 
 @inject RankingService RankingService
 
@@ -119,11 +119,11 @@
         if(_gameResult.Id == 0)
         {
             _gameResult.Date = DateTime.Now;
-            var result = RankingService.AddGameResult(_gameResult);
+            var result = await RankingService.AddGameResult(_gameResult);
         }
         else
         {
-            var result = RankingService.UpdateGameResult(_gameResult);
+            var result = await RankingService.UpdateGameResult(_gameResult);
         }
 
         _gameResults = await RankingService.GetGameResultsAsync();

@@ -34,7 +34,10 @@ builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.Requ
     .AddSignInManager()
     .AddDefaultTokenProviders();
 
-builder.Services.AddScoped<RankingService>();
+builder.Services.AddHttpClient<RankingService>( c =>
+{
+    c.BaseAddress = new Uri("https://localhost:7207");
+});
 
 builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
 

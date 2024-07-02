@@ -426,3 +426,6 @@ E:\Programming\RankingApp\RankingApp\obj\Debug\net8.0\refint\RankingApp.dll
 E:\Programming\RankingApp\RankingApp\obj\Debug\net8.0\RankingApp.pdb
 E:\Programming\RankingApp\RankingApp\obj\Debug\net8.0\RankingApp.genruntimeconfig.cache
 E:\Programming\RankingApp\RankingApp\obj\Debug\net8.0\ref\RankingApp.dll
+E:\Programming\RankingApp\RankingApp\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Programming\RankingApp\RankingApp\bin\Debug\net8.0\SharedData.dll
+E:\Programming\RankingApp\RankingApp\bin\Debug\net8.0\SharedData.pdb
